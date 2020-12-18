@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <!--<AddIn Type="Command">
+    <Text>Command RevitConverterApp</Text>
+    <Description>Some description for RevitConverterApp</Description>
+    <Assembly>RevitConverterApp.dll</Assembly>
+    <FullClassName>RevitConverterApp.Command</FullClassName>
+    <ClientId>fc41d969-c84b-4bf6-baad-597c95630a0a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>-->
+  <AddIn Type="Application">
+    <Name>Application RevitConverterApp</Name>
+    <Assembly>RevitConverterApp.dll</Assembly>
+    <FullClassName>RevitConverterApp.App</FullClassName>
+    <ClientId>b31eee4d-4a0a-4b3a-b83c-fa6ad764c0d4</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
