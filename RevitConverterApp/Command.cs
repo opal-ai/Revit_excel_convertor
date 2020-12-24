@@ -171,6 +171,11 @@ namespace RevitConverterApp
                 mid = new XYZ(mid.X, mid.Y, minZ);
                 var opening = doc.Create.NewFamilyInstance(mid, symbol, wall, doc.GetElement(wall.LevelId) as Level, StructuralType.NonStructural);
 
+                opening.flipFacing();
+                doc.Regenerate();
+                opening.flipFacing();
+                doc.Regenerate();
+
                 trans.Commit();
             }
         }
